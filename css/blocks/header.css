@@ -1,0 +1,64 @@
+.header {
+    background-color: #EFEDE7;
+    width: 100%;
+    min-height: 80px;
+}
+
+.header__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+}
+
+.header__menu {
+    position: relative;
+    width: 44px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header__burger-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #090909;
+}
+
+.header__users {
+    display: flex;
+    gap: 27px;
+    justify-content: flex-end;
+}
+
+.header__item {
+    position: relative;
+}
+
+.header__item-icon {
+    color: #AC8361;
+}
+
+.header__item-count {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    transform: translateY(-50%);
+}
+
+.header__phone {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}

@@ -1,0 +1,19 @@
+.cataloge-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cataloge-wrapper--big {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.cataloge-wrapper--net {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 0;
+}
