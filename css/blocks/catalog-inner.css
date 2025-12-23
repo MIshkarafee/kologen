@@ -1,6 +1,0 @@
-.catalog__inner {
-    display: grid;
-    grid-template-columns: 330px calc(100% - 330px);
-    gap: 58px;
-    padding: 24px 0 51px 0;
-}
